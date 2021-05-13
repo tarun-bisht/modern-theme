@@ -16,5 +16,6 @@ Theme was built using
 - Support for both light and dark theme with javascript
 - Animations support and can be controlled using attributes in html elements
 - do not require other 3rd party dependencies to work like jquery, bootstrap etc.
+- Image preloading (all images are not loaded at start they are loaded when visible this reduce website loading time)
 - easily customizable
 
