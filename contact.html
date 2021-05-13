@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+    <title>Tarun Bisht</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <section class="header template-header">
+		<nav>
+			<div class="logo"></div>
+			<div class="menu-btn">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+			<ul class="menu">
+				<li><a href="/"> Home</a></li>
+				<li><a href="template.html"> Template</a></li>
+				<li><a href="elements.html"> Elements</a></li>
+				<li><a href="portfolio.html"> Portfolio</a></li>
+				<li><a href="blog.html"> Writings</a></li>
+				<li><a href="contact.html"> Contact</a></li>
+				<li class="switch"><input type="checkbox" id="switch"/><label for="switch">Toggle</label></li>
+			</ul>
+		</nav>
+		<div class="landing">
+			<div class="headline" animation="fade-up" animation-time="1s">Contact</div>
+        </div>
+        <span class="scroll-down-button"></span>
+    </section>
+    <section class="container template-body">
+        <div class="contact" animation="fade-down" animation-time="1s">
+            <div class="col-2">
+                <form action="" method="POST">
+                    <label for="id_name">Name</label>
+                    <input id="id_name" type="text" name="name" rules="required | max:50" maxlength="50">
+                    <label for="id_email">Email</label>
+                    <input id="id_email" type="email" name="email" rules="required">
+                    <label for="id_website">Your Website</label>
+                    <input id="id_website" type="url" name="website">
+                    <label for="id_subject">Subject</label>
+                    <input id="id_subject" type="text" name="subject" rules="required | max:100" maxlength="100">
+                    <label for="id_message">Message</label>
+                    <textarea id="id_message" name="message" cols="40" rows="10" rules="required" spellcheck="false"></textarea>
+                    <button type="submit" class="button">Submit</button>
+                </form>
+                <div class="contact-details">
+                    <div class="card">
+                        <span><i class="fas fa-home"></i></span>
+                        <span>123, Park Avenue</span>
+                    </div>
+                    <div class="card">
+                        <span><i class="far fa-envelope"></i></span>
+                        <span><a href="contact@tarunbisht.com">contact@tarunbisht.com</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<section class="social">
+		<ul animation="fade-down" animation-time="1s">
+			<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+			<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+			<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+			<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+			<li><a href="#"><i class="fab fa-github"></i></a></li>
+			<li><a href="#"><i class="fab fa-medium-m"></i></a></li>
+		</ul>
+	</section>
+	<footer>
+		<div class="image"></div>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Hire Me</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Privacy Policy</a></li>
+				<li><a href="#">Terms and Conditions</a></li>
+			</ul>
+		</nav>
+		<div class="copyright">
+			Copyright © 2020 All rights reserved
+		</div>
+	</footer>
+    <script defer src="js/theme.js"></script>
+	<script defer src="js/main.js"></script>
+	<link async href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
+</body>
+</html>
